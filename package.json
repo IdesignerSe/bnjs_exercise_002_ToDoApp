@@ -1,9 +1,12 @@
 {
   "name": "todoapp",
-  "module": "index.ts",
+  "module": "index.tsx<<<<",
   "type": "module",
   "devDependencies": {
     "bun-types": "latest"
+  },
+  "scripts": {
+    "dev" : "bun --hot run index.tsx"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
